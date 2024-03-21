@@ -1,0 +1,23 @@
+{
+  "name": "alfred-js-repl",
+  "version": "0.0.1",
+  "description": "This simple NodeJS eval project allows evaluating JS code. LoDash and Underscore are supported",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "postinstall": "alfy-init",
+		"preuninstall": "alfy-cleanup"
+  },
+  "keywords": [
+    "alfred",
+    "javascript",
+    "NodeJS"
+  ],
+  "author": "mav",
+  "license": "MIT",
+  "dependencies": {
+    "alfy": "^2.0.0",
+    "lodash": "^4.17.21",
+    "underscore": "^1.13.6"
+  }
+}
